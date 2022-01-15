@@ -1,0 +1,33 @@
+h1 {
+  display: flex;
+  margin-bottom: 70pt;
+  justify-content: center;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+}
+
+
+form {
+  display: grid;
+  align-content: center;
+  font-family: omegle;
+  font-weight: bold;
+  text-align: center;
+  font-size: 15pt;
+}
+
+#logged-data,
+#consecutive-days,
+#personal-message {
+  font-size: 20pt;
+  font-family: omegle;
+  font-weight: bold;
+  text-align: center;
+}
+
+#submit{
+color: red; 
+}

@@ -1,4 +1,26 @@
 form {
-    display: block;
+    display: flex;
     margin-top: 0em;
+    justify-content: center;
   }
+
+  h1{
+    display: flex;
+    background-image: url("/assets/images/MindTrip-Small.gif");
+    justify-content: center;
+  }
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+  display: flex;
+font-weight: bold;
+align-items: center;
+}
+
+p{
+  display: flex;
+  justify-content: center;
+}
