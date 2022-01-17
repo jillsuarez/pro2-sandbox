@@ -1,6 +1,6 @@
 h1 {
   display: flex;
-  margin-bottom: 70pt;
+  margin-bottom: 30pt;
   justify-content: center;
 }
 
@@ -13,7 +13,7 @@ body {
 form {
   display: grid;
   align-content: center;
-  font-family: omegle;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   text-align: center;
   font-size: 15pt;
@@ -22,12 +22,13 @@ form {
 #logged-data,
 #consecutive-days,
 #personal-message {
+  display: grid;
+  background-image: url("/assets/images/MindTrip-Small.gif");
   font-size: 20pt;
-  font-family: omegle;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   text-align: center;
+  align-content: center;
+color: white;
 }
 
-#submit{
-color: red; 
-}
